@@ -61,7 +61,7 @@ const App = () => {
   useEffect(() => {
     if (currentPage === 0) fetchItems(currentPage);
   }, []);
-console.log(itemIds);
+
   return (
     <div className="app">
       <h1 className="title">Hacker News Job Board</h1>
